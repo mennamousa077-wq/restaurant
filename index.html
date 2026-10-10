@@ -1,0 +1,206 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bella Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="container nav-content">
+            <a href="#home" class="logo">Bella<span>.</span></a>
+
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#offers">Offers</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <a href="#contact" class="btn">Book a Table</a>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero" id="home">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <span class="subtitle">WELCOME TO BELLA</span>
+                <h1>Delicious Food <span>Made With Love</span></h1>
+                <p>
+                    Enjoy delicious meals prepared with fresh ingredients
+                    and served with love. Taste the difference!
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#menu" class="btn">Explore Menu</a>
+                    <a href="#about" class="btn btn-outline">Learn More</a>
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <img
+                    src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=80"
+                    alt="Delicious fresh food">
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="about section" id="about">
+        <div class="container about-content">
+            <div class="about-image">
+                <img
+                    src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=900&q=80"
+                    alt="Restaurant dining experience">
+            </div>
+
+            <div class="about-text">
+                <span class="subtitle">ABOUT OUR RESTAURANT</span>
+                <h2>We Serve The Best Food In Town</h2>
+                <p>
+                    At Bella Restaurant, we believe that great food brings
+                    people together. Our chefs prepare every dish with
+                    fresh ingredients, creativity and passion.
+                </p>
+
+                <ul>
+                    <li>✓ Fresh Ingredients</li>
+                    <li>✓ Professional Chefs</li>
+                    <li>✓ Friendly Service</li>
+                </ul>
+
+                <a href="#menu" class="btn">Discover More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu -->
+    <section class="menu section" id="menu">
+        <div class="container">
+            <div class="section-heading">
+                <span class="subtitle">OUR MENU</span>
+                <h2>Popular Dishes</h2>
+                <p>Discover our delicious and most popular meals.</p>
+            </div>
+
+            <div class="menu-grid">
+
+                <div class="menu-card">
+                    <img
+                        src="https://images.unsplash.com/photo-1568901346375-23c9450c58bd?auto=format&fit=crop&w=600&q=80"
+                        alt="Classic burger">
+                    <div class="card-content">
+                        <h3>Classic Burger</h3>
+                        <p>Juicy burger with cheese and fresh vegetables.</p>
+                        <div class="card-bottom">
+                            <span class="price">$8.99</span>
+                            <a href="#contact" class="order-btn">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-card">
+                    <img
+                        src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=600&q=80"
+                        alt="Italian pasta">
+                    <div class="card-content">
+                        <h3>Italian Pasta</h3>
+                        <p>Fresh pasta with creamy sauce and parmesan.</p>
+                        <div class="card-bottom">
+                            <span class="price">$7.50</span>
+                            <a href="#contact" class="order-btn">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-card">
+                    <img
+                        src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=600&q=80"
+                        alt="Fresh salad">
+                    <div class="card-content">
+                        <h3>Fresh Salad</h3>
+                        <p>Healthy salad made with fresh seasonal vegetables.</p>
+                        <div class="card-bottom">
+                            <span class="price">$5.99</span>
+                            <a href="#contact" class="order-btn">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Offers -->
+    <section class="offers" id="offers">
+        <div class="container offer-content">
+            <div>
+                <span class="subtitle">SPECIAL OFFER</span>
+                <h2>Get 20% Off Your First Order!</h2>
+                <p>Enjoy your favorite meals at a special price.</p>
+                <a href="#menu" class="btn">Order Now</a>
+            </div>
+            <div class="discount">20%<span>OFF</span></div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact section" id="contact">
+        <div class="container contact-content">
+            <div class="contact-info">
+                <span class="subtitle">CONTACT US</span>
+                <h2>Get In Touch</h2>
+                <p>
+                    Have a question or want to reserve a table?
+                    Send us a message.
+                </p>
+
+                <p>📍 Cairo, Egypt</p>
+                <p>☎ +20 100 000 0000</p>
+                <p>✉ hello@bella.com</p>
+            </div>
+
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <input type="text" placeholder="Subject">
+                <textarea rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div>
+                <a href="#home" class="logo">Bella<span>.</span></a>
+                <p>Delicious food, beautiful moments.</p>
+            </div>
+
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#menu">Menu</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>© 2026 Bella Restaurant. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
+```
+
